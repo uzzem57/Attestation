@@ -2,7 +2,7 @@ import operation
 import note
 import int
 
-number = 6  # сколько знаков МИНИМУМ может быть в тексте заметки
+number = 5  # сколько знаков МИНИМУМ может быть в тексте заметки
 
 
 def add():
