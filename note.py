@@ -1,6 +1,5 @@
-import uuid
 from datetime import datetime
-
+import uuid
 
 
 class Note:
@@ -23,7 +22,7 @@ class Note:
         return note.date
 
     def set_id(note):
-        note.id = str(int.uuid1())[0:3]
+        note.id = str(uuid.uuid1())[0:3]
 
     def set_title(note, title):
         note.title = title
