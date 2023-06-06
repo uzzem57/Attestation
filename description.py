@@ -1,4 +1,4 @@
-import note
+import Note
 
 
 def create_note(number):
@@ -6,7 +6,7 @@ def create_note(number):
         input('Введите Название заметки: '), number)
     body = check_len_text_input(
         input('Введите Описание заметки: '), number)
-    return note.Note(title=title, body=body)
+    return Note.Note(title=title, body=body)
 
 
 def menu():
@@ -22,4 +22,4 @@ def check_len_text_input(text, n):
 
 
 def goodbuy():
-    print("До новых встреч")
+    print("До встречи!")
